@@ -18,7 +18,7 @@ export default {
     {
       name: 'image',
       type: 'image',
-      title: 'Imafe of the restaurant',
+      title: 'Image of the Restaurant',
     },
     {
       name: 'lat',
@@ -39,7 +39,7 @@ export default {
     {
       name: 'rating',
       type: 'number',
-      title: 'Enter a Rating from (1-5 Stars)',
+      title: 'Enter a Rating from (1-5 stars)',
       validation: (Rule) =>
         Rule.required().min(1).max(5).error('Please enter a value between 1 and 5'),
     },
