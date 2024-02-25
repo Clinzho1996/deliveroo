@@ -2069,13 +2069,13 @@
     reselect "^5.0.1"
 
 "@sanity/client@^6.14.0":
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.14.0.tgz#9041bdce242db538d3404217f9f7f1c60d29bb13"
-  integrity sha512-bDyA6F0TDPtWxmV1nKMSSRjMcyHzkIne51PReIYYNoNCA2R59DP3M4Vg5xV14OlhxoaQ7pSccpbAsIKF/yQIkQ==
+  version "6.14.1"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.14.1.tgz#3d94b3cc9e7aeb9a933e129a719679bbbd28d8b5"
+  integrity sha512-PTtQZVopLvmq3xZDE+sU5tNutBR6mQSKGunvrTXnnecw4rR7mQYRl2ZmPHfpgamG2fcfXIydyw5khWzNc5k+Xw==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
-    get-it "^8.4.6"
+    get-it "^8.4.7"
     rxjs "^7.0.0"
 
 "@sanity/eventsource@^5.0.0":
@@ -2187,9 +2187,9 @@
   integrity sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==
 
 "@types/react@*":
-  version "18.2.56"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.56.tgz#2d3e9021a0b6eb5bfc227761cc61b1c6dc6e0cd8"
-  integrity sha512-NpwHDMkS/EFZF2dONFQHgkPRwhvgq/OAvIaGQzxGSBmaeR++kTg6njr15Vatz0/2VcCEwJQFi6Jf4Q0qBu0rLA==
+  version "18.2.57"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.57.tgz#147b516d8bdb2900219acbfc6f939bdeecca7691"
+  integrity sha512-ZvQsktJgSYrQiMirAN60y4O/LRevIV8hUzSOSNB6gfR3/o3wCBFQx3sPwIYtuDMeiVgsSS3UzCV26tEzgnfvQw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3765,10 +3765,10 @@ get-caller-file@^2.0.1, get-caller-file@^2.0.5:
   resolved "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-it@^8.4.6:
-  version "8.4.6"
-  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.6.tgz#37af61bd72027364c73ec10ed3f1c45ccb28241a"
-  integrity sha512-omefjdbyRb2rRt0tnrZlbeWx9oZJm66o88K8JlYn13xELn+0+d6mJZOQHrJAdC3vxeJ4t/NHa4wh7Wlh+nvEJA==
+get-it@^8.4.7:
+  version "8.4.8"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.8.tgz#c87a29305d928b284c7c8173f63952c62eafc3bc"
+  integrity sha512-UAnHXT1/8LwItDqiAN5YvVj9HdGshPbRqNAHsjgEmuzwk6v25u3tpc9ENk3vgb/IToSqn3k4cBkJYWsGzxhiVg==
   dependencies:
     debug "^4.3.4"
     decompress-response "^7.0.0"
@@ -5607,7 +5607,7 @@ prompts@^2.3.2, prompts@^2.4.2:
 
 prop-types@^15.6.0, prop-types@^15.8.1:
   version "15.8.1"
-  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
   dependencies:
     loose-envify "^1.4.0"

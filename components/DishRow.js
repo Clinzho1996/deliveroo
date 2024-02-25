@@ -1,10 +1,10 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 
-const DishRow = ({id, name, description, price, image}) => {
+const DishRow = ({name, description, price, image, id}) => {
   return (
     <TouchableOpacity>
-     <View>
+     <View key={id}>
         <Text className="text-lg">{name}</Text>
         <Text className="text-gray-400">{description}</Text>
         </View>

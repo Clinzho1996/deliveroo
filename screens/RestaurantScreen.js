@@ -11,7 +11,6 @@ import {
   MapPinIcon,
   StarIcon,
 } from "react-native-heroicons/solid";
-import DishRow from "../components/DishRow";
 
 const RestaurantScreen = () => {
   const navigation = useNavigation();
